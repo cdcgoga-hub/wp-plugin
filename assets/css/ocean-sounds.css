@@ -1,0 +1,74 @@
+.ocean-sounds-widget {
+	position: fixed;
+	z-index: 999999;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	pointer-events: none;
+}
+
+.ocean-sounds-widget > * {
+	pointer-events: auto;
+}
+
+.ocean-sounds-pos-bottom-right {
+	right: 16px;
+	bottom: 16px;
+}
+
+.ocean-sounds-pos-bottom-left {
+	left: 16px;
+	bottom: 16px;
+}
+
+.ocean-sounds-pos-top-right {
+	right: 16px;
+	top: 16px;
+}
+
+.ocean-sounds-pos-top-left {
+	left: 16px;
+	top: 16px;
+}
+
+.ocean-sounds-toggle {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	background: rgba(20, 40, 60, 0.85);
+	color: #fff;
+	border: none;
+	border-radius: 999px;
+	padding: 10px 16px;
+	font-size: 14px;
+	line-height: 1;
+	cursor: pointer;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+	transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.ocean-sounds-toggle:hover,
+.ocean-sounds-toggle:focus-visible {
+	background: rgba(20, 60, 90, 0.95);
+	transform: translateY(-1px);
+}
+
+.ocean-sounds-icon {
+	font-size: 16px;
+}
+
+.ocean-sounds-track-select {
+	border-radius: 999px;
+	border: none;
+	padding: 8px 10px;
+	background: rgba(20, 40, 60, 0.85);
+	color: #fff;
+	font-size: 13px;
+	max-width: 160px;
+}
+
+@media (max-width: 480px) {
+	.ocean-sounds-toggle-label {
+		display: none;
+	}
+}

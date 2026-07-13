@@ -1,0 +1,13 @@
+.ocean-sounds-settings .ocean-sounds-volume-value {
+	display: inline-block;
+	min-width: 2em;
+	font-weight: 600;
+}
+
+#ocean-sounds-tracks-table .ocean-sounds-track-url {
+	width: 60%;
+}
+
+#ocean-sounds-track-row-template {
+	display: none;
+}
