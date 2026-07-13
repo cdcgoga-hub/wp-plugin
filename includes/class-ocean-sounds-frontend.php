@@ -114,8 +114,8 @@ class Ocean_Sounds_Frontend {
 				'volume'       => (int) $options['volume'],
 				'autoplay'     => ! empty( $options['autoplay'] ),
 				'i18n'         => array(
-					'play'        => __( 'Play ocean sounds', 'ocean-sounds' ),
-					'pause'       => __( 'Pause ocean sounds', 'ocean-sounds' ),
+					'play'        => __( 'ხმის ჩართვა', 'ocean-sounds' ),
+					'pause'       => __( 'ხმის გამორთვა', 'ocean-sounds' ),
 					'trackLabel'  => __( 'Melody', 'ocean-sounds' ),
 					'widgetLabel' => __( 'Ocean sounds player', 'ocean-sounds' ),
 				),

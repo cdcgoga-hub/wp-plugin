@@ -85,8 +85,8 @@
 			toggleBtn.setAttribute( 'aria-pressed', soundOn ? 'true' : 'false' );
 			icon.textContent = soundOn ? '🔊' : '🔇';
 			label.textContent = soundOn
-				? ( settings.i18n && settings.i18n.pause ? settings.i18n.pause : 'Pause' )
-				: ( settings.i18n && settings.i18n.play ? settings.i18n.play : 'Play' );
+				? ( settings.i18n && settings.i18n.pause ? settings.i18n.pause : 'ხმის გამორთვა' )
+				: ( settings.i18n && settings.i18n.play ? settings.i18n.play : 'ხმის ჩართვა' );
 		}
 		updateToggleUI();
 
